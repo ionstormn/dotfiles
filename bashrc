@@ -1,0 +1,8 @@
+#Prompt Color Variables
+BRAKCOLOR="\[\033[38;5;247m\]"
+SECCOLOR="\[\033[38;5;59m\]"
+PRICOLOR="\[\033[38;5;196m\]"
+RESETCOLOR="\[\033[0m\]"
+
+#Setting Custom 256-Color Prompt
+export PS1="${BRAKCOLOR}[${SECCOLOR}\t${BRAKCOLOR}]-${BRAKCOLOR}[${PRICOLOR}\u${BRAKCOLOR}@${PRICOLOR}\h ${SECCOLOR}\W${BRAKCOLOR}]\$ ${RESETCOLOR}"
